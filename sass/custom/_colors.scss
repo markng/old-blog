@@ -2,12 +2,25 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
-//$header-bg: #263347;
-//$subtitle-color: lighten($header-bg, 58);
-//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
-//$sidebar-bg: desaturate(#eceff5, 8);
+$header-bg: #fff;
+$main-bg: #fff;
+$page-bg: #fff;
+$title-color: darken($header-bg, 70);
+$subtitle-color: darken($header-bg, 58);
+$sidebar-bg: desaturate(#eceff5, 8);
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
+
+/* Navigation */
+$nav-bg: #000;
+$nav-color: lighten($nav-bg, 70);
+$nav-color-hover: lighten($nav-color, 25);
+$nav-placeholder: desaturate(lighten($nav-bg, 10), 15);
+$nav-border: lighten($nav-bg, 10);
+$nav-border-top: lighten($nav-bg, 15);
+$nav-border-bottom: lighten($nav-bg, 25);
+$nav-border-left: lighten($nav-bg, 11);
+$nav-border-right: lighten($nav-bg, 7);
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
