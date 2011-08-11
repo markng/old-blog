@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://markng.github.com
+title: Mark Ng
+subtitle: "When I grow up, I'd like to disrupt something."
+author: Mark Ng
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -48,7 +48,7 @@ default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user: markng
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
@@ -64,11 +64,11 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user: markng
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: markng
 
 # Google Analytics
 google_analytics_tracking_id:
